@@ -16,4 +16,6 @@ class BSTIterator(object):
 			self.stack.append(node)
 			node = node.left 
 
-			
+
+        def _pushRight(self, node):
+                
